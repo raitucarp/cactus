@@ -1,0 +1,15 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "Example of cactus' blog",
+  "main": "index.js",
+  "author": "Ribhararnus Pracutiar",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "next start"
+  },
+  "dependencies": {
+    "engine": "file:./../../engine"
+  }
+}
