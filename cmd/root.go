@@ -30,17 +30,12 @@ var cfgFile string
 // rootCmd represents the base command when called without any subcommands
 var rootCmd = &cobra.Command{
 	Use:   "cactus",
-	Short: "Simple Headless CMS",
+	Short: "Cactus is simple Headless CMS",
 	Long:  `Cactus provide simple headless CMS based on your filesystem.`,
 	// Uncomment the following line if your bare application
 	// has an action associated with it:
 	Run: func(cmd *cobra.Command, args []string) {
-		argsLen := len(args)
-
-		if argsLen <= 0 {
-			fmt.Println("Please run cactus help")
-			os.Exit(0)
-		}
+		fmt.Println(cmd.Short)
 	},
 }
 
